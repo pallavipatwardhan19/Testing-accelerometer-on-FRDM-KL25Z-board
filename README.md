@@ -1,5 +1,5 @@
 **Task :**  
-arm Mbed KL25Z board comes with an onboard accelerometer. To check for the efficiency of Accelerometer is the task.
+arm Mbed KL25Z board comes with an onboard accelerometer. The task here is to read and print values from accelerometer's output.
 
 **Code :**  
 Required code is attached in the Embed.c file  
