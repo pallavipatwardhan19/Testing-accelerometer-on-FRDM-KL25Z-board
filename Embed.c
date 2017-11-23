@@ -1,7 +1,6 @@
 /* -- Freescale FRDM board comes with an onboard accelerometer. For testing of accelerometer following code is used -- */ 
 #include "mbed.h"
 #include "MMA8451Q.h"
-#define ADDRESS (0x1d<<1)
 Serial pc(USBTX,USBRX);
 MMA8451Q acc(PTE25,PTE24,ADDRESS);
 float x,y,z;
